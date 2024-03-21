@@ -57,6 +57,7 @@ export default function TextForm(props) {
         <p>{Math.floor(0.008 * text.split(" ").length)} Minutes Read</p>
         <h2 className='my-3'>Preview</h2>
         <p>{text.length>0?text:"Nothing to Preview!"}</p>
+        <p className='text-center mt-5'>Meet Gauswami</p> 
     </div>
     <p className='text-center mt-5'>Meet Gauswami</p> 
     </>
